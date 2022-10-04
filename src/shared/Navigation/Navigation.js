@@ -1,7 +1,9 @@
-import React from 'react'
-
+import React from "react";
 export default function Navigation() {
-  return (
-    <div>Navigation</div>
-  )
+  return <div>
+    <div>
+        <div></div>
+        <div></div>
+    </div>
+  </div>;
 }
