@@ -1,8 +1,8 @@
-import { FETCH_USERS_SUCCESS } from "../constants/type";
+import { ActionTypes } from "../constants/action-type";
 
 export const setUsers = (users) => {
   return {
-    type: FETCH_USERS_SUCCESS,
+    type: ActionTypes.SET_USERS,
     payload: users,
   };
 };
