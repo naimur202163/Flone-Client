@@ -1,11 +1,11 @@
 import "./App.css";
-import Navigation from "./shared/Navigation/Navigation";
+import Router from "./Router";
 
 function App() {
   return (
-    <div >
-     <Navigation/>
-    </div>
+    <>
+      <Router />
+    </>
   );
 }
 
