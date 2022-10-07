@@ -1,16 +1,12 @@
-import AppBar from "@mui/material/AppBar";
+import { Container, Tab } from "@mui/material";
 import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
-import React from "react";
-import logo from "../../assets/img/logo/logo-2.png";
-
-const pages = ["Home", "Shop", "Collection", "Pages", "Contact Us"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+import { Link } from "react-router-dom";
+import logo from "../../assets/img/logo/logo.png";
 export default function Navigation() {
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
-        <Box p={2}>
+    <>
+      <Container>
+        <Box p={1} sx={{ backgroundColor: "#FFFFFF" }}>
           <Box
             sx={{
               display: "flex",
@@ -21,11 +17,13 @@ export default function Navigation() {
             <Box>
               <img src={logo} alt="" />
             </Box>
-            <Box>2</Box>
+            <Box>
+                
+            </Box>
             <Box>3</Box>
           </Box>
         </Box>
       </Container>
-    </AppBar>
+    </>
   );
 }
