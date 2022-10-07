@@ -8,16 +8,13 @@ import Box from "@mui/material/Box";
 import logo from "../../assets/img/logo/logo.png";
 import React from "react";
 export default function Footer() {
-  const theme = createTheme({
-    typography: {
-      allVariants: {
-        "&": {
-          display: "inline",
-        },
-      },
-      // Tell Material-UI what the font-size on the html element is.
-    },
-  });
+  const theme = createTheme();
+
+  theme.typography.p = {
+    fontSize: "1rem",
+    fontFamily:''
+  };
+
   return (
     <>
       <ThemeProvider theme={theme}>
