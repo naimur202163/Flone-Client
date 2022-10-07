@@ -4,21 +4,23 @@ import Blog from "./pages/Blog";
 import Collection from "./pages/Collection";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Shop from './pages/Shop';
-import Navigation from './shared/Navigation/Navigation';
+import Shop from "./pages/Shop";
+import Footer from "./shared/Footer/Footer";
+import Navigation from "./shared/Navigation/Navigation";
 
 export default function Router() {
   return (
     <>
       <BrowserRouter>
-      <Navigation/>
+        <Navigation />
         <Routes>
-          <Route index element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="blog" element={<Blog />}></Route>
           <Route path="contact" element={<Contact />}></Route>
           <Route path="collection" element={<Collection />}></Route>
           <Route path="shop" element={<Shop />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

@@ -25,17 +25,17 @@ export default function Navigation() {
               <img src={logo} alt="" />
             </Box>
             <Box>
-              <Link style={linkStyle} to="/home">
+              <Link style={linkStyle} to="/">
                 Home
               </Link>
               <Link style={linkStyle} to="/blog">
                 blog
               </Link>
-              <Link style={linkStyle} to="/contact">
-                contact
-              </Link>
               <Link style={linkStyle} to="/collection">
-                collection
+                Collection
+              </Link>
+              <Link style={linkStyle} to="/contact">
+                Contact Us
               </Link>
             </Box>
             <Box>logos</Box>
