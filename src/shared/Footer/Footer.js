@@ -25,12 +25,18 @@ export default function Footer() {
           sx={{ backgroundColor: "#F6F6F8" }}
         >
           <Container>
-            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+            <Box
+              sx={{
+                display: { xs: "flex", lg: "flex" },
+                flexDirection: { xs: "column", lg: "row" },
+                justifyContent: { xs: "center", lg: "space-between" },
+              }}
+            >
               <Box>
                 <Box>
                   <img src={logo} alt="" />
                 </Box>
-                <Typography  variant="p">
+                <Typography variant="p">
                   © 2022 Flone.
                   <br /> All Rights Reserved
                 </Typography>
