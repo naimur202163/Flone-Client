@@ -12,20 +12,25 @@ export default function Footer() {
 
   theme.typography.p = {
     fontSize: "1rem",
-    fontFamily:''
+    fontFamily: "Open Sans",
+    color: "gray",
+    paddingTop: ".6rem",
   };
 
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Box sx={{ backgroundColor: "#F6F6F8" }}>
+        <Box
+          style={{ paddingTop: "5rem", paddingBottom: "5rem" }}
+          sx={{ backgroundColor: "#F6F6F8" }}
+        >
           <Container>
             <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Box>
                 <Box>
                   <img src={logo} alt="" />
                 </Box>
-                <Typography variant="p">
+                <Typography  variant="p">
                   © 2022 Flone.
                   <br /> All Rights Reserved
                 </Typography>
