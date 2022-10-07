@@ -1,7 +1,15 @@
 import { Container } from "@mui/material";
 import Box from "@mui/material/Box";
+import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo/logo.png";
 export default function Navigation() {
+  const linkStyle = {
+    margin: "1rem",
+    textDecoration: "none",
+    color: "black",
+    fontSize: "1rem",
+    // fontWeight:'semiBold'
+  };
   return (
     <>
       <Container>
@@ -17,9 +25,20 @@ export default function Navigation() {
               <img src={logo} alt="" />
             </Box>
             <Box>
-                
+              <Link style={linkStyle} to="/home">
+                Home
+              </Link>
+              <Link style={linkStyle} to="/blog">
+                blog
+              </Link>
+              <Link style={linkStyle} to="/contact">
+                contact
+              </Link>
+              <Link style={linkStyle} to="/collection">
+                collection
+              </Link>
             </Box>
-            <Box>3</Box>
+            <Box>logos</Box>
           </Box>
         </Box>
       </Container>
