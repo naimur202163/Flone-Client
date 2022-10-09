@@ -78,7 +78,7 @@ export default function Navigation() {
               </ul>
             </div>
           </div>
-          <div></div>
+          <div>ichon</div>
         </div>
       </nav>
 
