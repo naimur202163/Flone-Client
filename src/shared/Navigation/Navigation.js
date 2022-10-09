@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import logo from '../../assets/img/logo/logo.png'
+import logo from "../../assets/img/logo/logo.png";
+import { Link } from "react-router-dom";
 export default function Navigation() {
   const [navbar, setNavbar] = useState(false);
 
@@ -10,7 +11,7 @@ export default function Navigation() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <div className="text-2xl font-bold">
-                <img src={logo} alt=""/>
+                <img src={logo} alt="" />
               </div>
 
               <div className="md:hidden">
@@ -59,24 +60,25 @@ export default function Navigation() {
               }`}
             >
               <ul className="items-c  enter justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-gray-600 hover:text-blue-600">
-                  <a href="/home">Home</a>
-                </li>
-                <li className="text-gray-600 hover:text-blue-600">
-                  <a href="/blog">Blog</a>
-                </li>
-                <li className="text-gray-600 hover:text-blue-600">
-                  <a href="/">About US</a>
-                </li>
-                <li className="text-gray-600 hover:text-blue-600">
-                  <a href="/contact">Contact US</a>
-                </li>
+                <Link className="text-gray-600 hover:text-blue-600" to="/">
+                  Home
+                </Link>
+                <Link className="text-gray-600 hover:text-blue-600" to="/shop">
+                  Shop
+                </Link>
+                <Link className="text-gray-600 hover:text-blue-600" to="/collection">
+                  Collection
+                </Link>
+                <Link className="text-gray-600 hover:text-blue-600" to="/blog">
+                  Blog
+                </Link>
+                <Link className="text-gray-600 hover:text-blue-600" to="/contact">
+                  Contact Us
+                </Link>
               </ul>
             </div>
           </div>
-          <div>
-         
-          </div>
+          <div></div>
         </div>
       </nav>
 

@@ -14,11 +14,11 @@ export default function Router() {
       <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
-          <Route path="blog" element={<Blog/>}></Route>
-          <Route path="contact" element={<Contact/>}></Route>
-          <Route path="collection" element={<Collection/>}></Route>
-          <Route path="shop" element={<Shop/>}></Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="blog" element={<Blog />}></Route>
+          <Route path="contact" element={<Contact />}></Route>
+          <Route path="collection" element={<Collection />}></Route>
+          <Route path="shop" element={<Shop />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
