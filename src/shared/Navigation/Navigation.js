@@ -74,7 +74,9 @@ export default function Navigation() {
               </ul>
             </div>
           </div>
-          <div>g</div>
+          <div>
+         
+          </div>
         </div>
       </nav>
 
