@@ -13,7 +13,7 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h4>USEFUL LINKS</h4>
+          <h4 >ABOUT US</h4>
           <ul>
             <li>
               <a href="#">About us</a>
@@ -25,15 +25,57 @@ export default function Footer() {
               <a href="#">Contact</a>
             </li>
             <li>
-              <a href="#">Orders tracking</a>
+              <a href="#">Orders tracking </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>USEFUL LINKS</h4>
+          <ul>
+            <li>
+              <a href="#">Returns</a>
+            </li>
+            <li>
+              <a href="#">Support Policy</a>
+            </li>
+            <li>
+              <a href="#">Size guide</a>
+            </li>
+            <li>
+              <a href="#">FAQs</a>
             </li>
           </ul>
         </div>
         <div>
           <h4>FOLLOW US</h4>
+          <ul>
+            <li>
+              <a href="#">Facebook</a>
+            </li>
+            <li>
+              <a href="#">Twitter</a>
+            </li>
+            <li>
+              <a href="#">Instagram </a>
+            </li>
+            <li>
+              <a href="#">Youtube </a>
+            </li>
+          </ul>
         </div>
         <div>
           <h4>SUBSCRIBE</h4>
+          <ul>
+            <li>
+              <a href="#">
+                Get E-mail updates about our latest shop
+                <br /> and special offers.
+              </a>
+            </li>
+            <li>
+              <a href="#">SUBSCRIBE</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
