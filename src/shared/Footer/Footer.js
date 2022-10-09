@@ -13,19 +13,19 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h4 >ABOUT US</h4>
+          <h4>ABOUT US</h4>
           <ul>
             <li>
-              <a href="#">About us</a>
+              <p>About us</p>
             </li>
             <li>
-              <a href="#">Store location</a>
+              <p>Store location</p>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <p>Contact</p>
             </li>
             <li>
-              <a href="#">Orders tracking </a>
+              <p>Orders tracking </p>
             </li>
           </ul>
         </div>
@@ -33,16 +33,16 @@ export default function Footer() {
           <h4>USEFUL LINKS</h4>
           <ul>
             <li>
-              <a href="#">Returns</a>
+              <p>Returns</p>
             </li>
             <li>
-              <a href="#">Support Policy</a>
+              <p>Support Policy</p>
             </li>
             <li>
-              <a href="#">Size guide</a>
+              <p>Size guide</p>
             </li>
             <li>
-              <a href="#">FAQs</a>
+              <p>FAQs</p>
             </li>
           </ul>
         </div>
@@ -50,16 +50,16 @@ export default function Footer() {
           <h4>FOLLOW US</h4>
           <ul>
             <li>
-              <a href="#">Facebook</a>
+              <p>Facebook</p>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <p>Twitter</p>
+            </li>
+            <li>      
+              <p>Instagram </p>
             </li>
             <li>
-              <a href="#">Instagram </a>
-            </li>
-            <li>
-              <a href="#">Youtube </a>
+              <p>Youtube </p>
             </li>
           </ul>
         </div>
@@ -67,13 +67,13 @@ export default function Footer() {
           <h4>SUBSCRIBE</h4>
           <ul>
             <li>
-              <a href="#">
+              <p  >
                 Get E-mail updates about our latest shop
                 <br /> and special offers.
-              </a>
+              </p>
             </li>
             <li>
-              <a href="#">SUBSCRIBE</a>
+              <p href="#">SUBSCRIBE</p>
             </li>
           </ul>
         </div>
