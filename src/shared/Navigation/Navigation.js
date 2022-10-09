@@ -1,17 +1,18 @@
 import React, { useState } from "react";
-
+import logo from '../../assets/img/logo/logo.png'
 export default function Navigation() {
   const [navbar, setNavbar] = useState(false);
 
   return (
     <div>
-      {/* <nav className="w-full bg-white shadow">
+      <nav className="w-full bg-white shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="javascript:void(0)">
-                <h2 className="text-2xl font-bold">LOGO</h2>
-              </a>
+              <div className="text-2xl font-bold">
+                <img src={logo} alt=""/>
+              </div>
+
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -50,6 +51,7 @@ export default function Navigation() {
               </div>
             </div>
           </div>
+
           <div>
             <div
               className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
@@ -58,22 +60,23 @@ export default function Navigation() {
             >
               <ul className="items-c  enter justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="javascript:void(0)">Home</a>
+                  <a href="/home">Home</a>
                 </li>
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="javascript:void(0)">Blog</a>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="javascript:void(0)">About US</a>
+                  <a href="/">About US</a>
                 </li>
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="javascript:void(0)">Contact US</a>
+                  <a href="/contact">Contact US</a>
                 </li>
               </ul>
             </div>
           </div>
+          <div>g</div>
         </div>
-      </nav> */}
+      </nav>
 
       {/* New nav bar  */}
     </div>
