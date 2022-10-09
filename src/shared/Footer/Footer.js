@@ -55,7 +55,7 @@ export default function Footer() {
             <li>
               <p>Twitter</p>
             </li>
-            <li>      
+            <li>
               <p>Instagram </p>
             </li>
             <li>
@@ -67,7 +67,7 @@ export default function Footer() {
           <h4>SUBSCRIBE</h4>
           <ul>
             <li>
-              <p  >
+              <p>
                 Get E-mail updates about our latest shop
                 <br /> and special offers.
               </p>
