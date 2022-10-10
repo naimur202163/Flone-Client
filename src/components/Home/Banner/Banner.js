@@ -36,6 +36,7 @@ const items = [
 export default function Banner() {
   return (
     <div className="bg-light">
+         <div className="container mx-auto">
       <Carousel>
         {items.map((item) => (
           <div className=" md:flex p-16">
@@ -53,5 +54,7 @@ export default function Banner() {
         ))}
       </Carousel>
     </div>
+    </div>
+ 
   );
 }

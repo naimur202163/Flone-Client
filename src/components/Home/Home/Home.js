@@ -3,7 +3,8 @@ import Banner from "../Banner/Banner";
 
 export default function Homes() {
   return (
-    <div className="container mx-auto">
+    <div className="">
+      <div></div>
       <Banner />
     </div>
   );
