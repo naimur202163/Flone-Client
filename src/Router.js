@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Cart from "./components/Common/Cart/Cart";
 import Blog from "./pages/Blog";
 import Collection from "./pages/Collection";
 import Contact from "./pages/Contact";
@@ -19,6 +20,8 @@ export default function Router() {
           <Route path="contact" element={<Contact />}></Route>
           <Route path="collection" element={<Collection />}></Route>
           <Route path="shop" element={<Shop />}></Route>
+          {/* Demo Routes */}
+          <Route path="cart" element={<Cart />} />
         </Routes>
         <Footer />
       </BrowserRouter>
