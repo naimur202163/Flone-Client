@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Cart from "./components/Common/Cart/Cart";
 import Checkout from "./components/Common/Checkout/Checkout";
+import WhiteList from "./components/Common/WhiteList/WhiteList";
 import Blog from "./pages/Blog";
 import Collection from "./pages/Collection";
 import Contact from "./pages/Contact";
@@ -21,9 +22,10 @@ export default function Router() {
           <Route path="contact" element={<Contact />}></Route>
           <Route path="collection" element={<Collection />}></Route>
           <Route path="shop" element={<Shop />}></Route>
-          {/* Demo Routes */}
+          {/* common Routes */}
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
+          <Route path="whiteList" element={<WhiteList />} />
         </Routes>
         <Footer />
       </BrowserRouter>
