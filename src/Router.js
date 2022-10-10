@@ -1,8 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./components/About/About/About";
+import NotFound from "./components/Common/404/NotFound";
 import Cart from "./components/Common/Cart/Cart";
 import Checkout from "./components/Common/Checkout/Checkout";
 import Compare from "./components/Common/Compare/Compare";
+import MyAccount from "./components/Common/MyAccount/MyAccount";
 import WhiteList from "./components/Common/WhiteList/WhiteList";
 import Blog from "./pages/Blog";
 import Collection from "./pages/Collection";
@@ -28,6 +31,9 @@ export default function Router() {
           <Route path="checkout" element={<Checkout />} />
           <Route path="whiteList" element={<WhiteList />} />
           <Route path="compare" element={<Compare />} />
+          <Route path="accounte" element={<MyAccount />} />
+          <Route path="notfound" element={<NotFound />} />
+          <Route path="about" element={<About />} />
         </Routes>
         <Footer />
       </BrowserRouter>
