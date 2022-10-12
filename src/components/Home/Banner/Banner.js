@@ -36,25 +36,26 @@ const items = [
 export default function Banner() {
   return (
     <div className="bg-light">
-         <div className="container mx-auto">
-      <Carousel>
-        {items.map((item) => (
-          <div className=" md:flex p-16">
-            <div className="p-8">
-              <p className="text-xl ">{item.text}</p>
-              <h2 className="text-[3.5rem] font-semibold  ">{item.content}</h2>
-              <button className="mt-5 w-[10rem] h-[4rem] border-solid border-2 border-dark">
-                Shop Now
-              </button>
+      <div className="container mx-auto">
+        <Carousel>
+          {items.map((item) => (
+            <div key={item.id} className=" md:flex p-16">
+              <div className="p-8">
+                <p className="text-xl ">{item.text}</p>
+                <h2 className="text-[3.5rem] font-semibold  ">
+                  {item.content}
+                </h2>
+                <button className="mt-5 w-[10rem] h-[4rem] border-solid border-2 border-dark">
+                  Shop Now
+                </button>
+              </div>
+              <div className="w-full h-full" key={item.id}>
+                <img src={item.img} alt="" />{" "}
+              </div>
             </div>
-            <div className="w-full h-full" key={item.id}>
-              <img src={item.img} alt="" />{" "}
-            </div>
-          </div>
-        ))}
-      </Carousel>
+          ))}
+        </Carousel>
+      </div>
     </div>
-    </div>
- 
   );
 }
