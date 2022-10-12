@@ -45,7 +45,9 @@ export default function About() {
               <h3 className='text-3xl font-medium text-[#4f383b] tracking-wide leading-relaxed'>Sunglass</h3>
               <p className='text-[#212121] tracking-wide'>Starting at <span className='text-[#4f383b] text-[1.2rem] font-medium'>$99.00</span></p>
 
-              <p className='mt-[3rem] text-[#4f383b]'><BsArrowRight /></p>
+              <div>
+                <p className='mt-[3rem] text-[#4f383b]'><BsArrowRight /></p>
+              </div>
 
             </div>
           </div>
@@ -191,6 +193,10 @@ export default function About() {
         </div>
 
       </div>
+
+
+
+
 
 
 
