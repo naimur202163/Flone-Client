@@ -1,4 +1,4 @@
-export const AboutData = [
+export const aboutData = [
     {
         id: 1,
         img: 'https://i.ibb.co/jyJnJ8c/brand-logo-3.png'

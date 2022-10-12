@@ -4,6 +4,7 @@ import { FiShoppingBag } from 'react-icons/fi'
 import { RiCupLine, RiLightbulbLine } from 'react-icons/ri'
 import { BsEmojiSmile } from 'react-icons/bs'
 import CountUp from 'react-countup';
+import AboutSlider from '../AboutSlider/AboutSlider';
 
 
 
@@ -196,7 +197,7 @@ export default function About() {
 
 
 
-
+      <AboutSlider />
 
 
 
