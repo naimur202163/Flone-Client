@@ -1,5 +1,9 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs'
+import { FiShoppingBag } from 'react-icons/fi'
+import { RiCupLine, RiLightbulbLine } from 'react-icons/ri'
+import { BsEmojiSmile } from 'react-icons/bs'
+
 
 
 export default function About() {
@@ -27,7 +31,7 @@ export default function About() {
 
 
       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-[2rem]
-      gap-y-[2rem] px-[1.3rem] md:px-[3rem] lg:px-[5rem] '>
+      gap-y-[2rem] px-[1.3rem] md:px-[3rem] lg:px-[5rem]'>
 
         <div className="bg-gradient-to-tr overflow-hidden relative h-[14rem]">
           <img
@@ -40,7 +44,7 @@ export default function About() {
               <h3 className='text-3xl font-medium text-[#4f383b] tracking-wide leading-relaxed'>Sunglass</h3>
               <p className='text-[#212121] tracking-wide'>Starting at <span className='text-[#4f383b] text-[1.2rem] font-medium'>$99.00</span></p>
 
-              <p className='mt-[3rem] text-[#4f383b] '><BsArrowRight /></p>
+              <p className='mt-[3rem] text-[#4f383b]'><BsArrowRight /></p>
 
             </div>
           </div>
@@ -81,9 +85,60 @@ export default function About() {
         </div>
 
 
+      </div>
 
+
+
+      <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-[2rem]
+      gap-y-[2rem] px-[1.3rem] md:px-[3rem] lg:px-[5rem] my-[4.8rem]'>
+
+        <div>
+          <h1 className='text-2xl font-medium text-[#403d3d] pb-[1.2rem]'>Our Vision</h1>
+          <p className='leading-relaxed text-[#2a2a2a]'>Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth.</p>
+        </div>
+        <div>
+          <h1 className='text-2xl font-medium text-[#403d3d] pb-[1.2rem]'>Our Mission</h1>
+          <p className='leading-relaxed text-[#2a2a2a]'>Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth</p>
+        </div>
+        <div>
+          <h1 className='text-2xl font-medium text-[#403d3d] pb-[1.2rem]'>Our Goal</h1>
+          <p className='leading-relaxed text-[#2a2a2a]'>Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth</p>
+        </div>
+      </div>
+
+
+
+
+      <div>
+
+        <div>
+          <p><FiShoppingBag /></p>
+          <h1></h1>
+          <h4>Project Done</h4>
+        </div>
+
+        <div>
+          <p><RiCupLine /></p>
+          <h1></h1>
+          <h4>Cups Of Coffee</h4>
+        </div>
+
+        <div>
+          <p><RiLightbulbLine /></p>
+          <h1></h1>
+          <h4>Branding</h4>
+        </div>
+
+        <div>
+          <p><BsEmojiSmile /></p>
+          <h1></h1>
+          <h4>Happy Clients</h4>
+        </div>
 
       </div>
+
+
+
 
     </div>
   )
