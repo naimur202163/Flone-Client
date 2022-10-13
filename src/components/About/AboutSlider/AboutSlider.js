@@ -51,8 +51,8 @@ const AboutSlider = () => {
             <Slider {...settings}>
                 {aboutData.map(item => (
                     <div className="mx-auto items-center justify-center content-center">
-                        <div className="flex justify-center">
-                            <img className="p-[3rem] fill-cyan-500 hover:fill-cyan-700" src={item.img} alt="" />
+                        <div className="flex justify-center cursor-grabbing">
+                            <img className="p-[3rem]" src={item.img} alt="" />
                         </div>
                     </div>
                 ))}
