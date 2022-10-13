@@ -18,8 +18,22 @@ export const aboutData = [
     {
         id: 5,
         img: 'https://i.ibb.co/Ybh31fF/brand-logo-4.png'
+    },
+    {
+        id: 6,
+        img: 'https://i.ibb.co/55DpLgZ/brand-logo-1.png'
     }
 ]
+
+
+
+
+
+
+
+
+
+
 
 
 
